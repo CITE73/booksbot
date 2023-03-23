@@ -17,7 +17,7 @@ class Articulo(Item):
     preguntas = Field()
 
 #class MercadoLibreCrawler(CrawlSpider):
-class BooksSpider(scrapy.Spider):    
+class BooksSpider(CrawlSpider):    
     name = 'mercadoLibre'
 
     custom_settings = {
